@@ -1,5 +1,6 @@
 <template>
     <div id="app">
+        <topHeader></topHeader>
         <topNav></topNav>
         <router-view></router-view>
     </div>
@@ -7,15 +8,16 @@
 
 <script>
 import topNav from './components/topNav';
+import topHeader from './components/topHeader';
 
 export default {
     name: 'app',
     data() {
         return {
-            
+            test: 1
         }
     },
-    components: { topNav }
+    components: { topNav, topHeader }
 }
 </script>
 

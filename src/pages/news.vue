@@ -37,7 +37,7 @@
 
 <script>
 export default {
-  name: 'Part',
+  name: 'news',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'

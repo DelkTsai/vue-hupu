@@ -54,7 +54,7 @@ export default {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 2rem;
+	height: 6rem;
     
     &::before {
         content: "";
@@ -74,15 +74,16 @@ export default {
 
     li {
 		flex: 1;
-        line-height: 2rem;
+        height: 100%;
         cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center; 
 
         a { 
             display: block;
-            line-height: 2rem;
+            width: 100%;
+            height: 100%;
+            font-size: 1.2rem;
+            line-height: 9rem;
+            text-align: center;
             color: #333;
         }
 

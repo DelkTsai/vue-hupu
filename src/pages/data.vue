@@ -50,7 +50,7 @@
 
 <script>
 export default {
-  name: 'Hello',
+  name: 'data',
   data () {
     return {
       msg: 'Welcome to Hello'
