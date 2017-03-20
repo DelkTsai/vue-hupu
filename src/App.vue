@@ -12,12 +12,10 @@ export default {
     name: 'app',
     data() {
         return {
-            bar: 'hello'
+            
         }
     },
-    components:{
-        topNav
-    }
+    components: { topNav }
 }
 </script>
 
