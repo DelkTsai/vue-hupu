@@ -26,6 +26,7 @@ body {
     font-family: tahoma, Arial, Roboto, 'Droid Sans', 'Helvetica Neue', 'Droid Sans Fallback', 'Hiragino Sans GB', 'Heiti SC', sans-self;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    background: #eee;
 }
 
 #app {
